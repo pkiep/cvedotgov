@@ -2,6 +2,15 @@
   h3 {
     margin: 0;
     padding: 10px;
+    &.primary {
+      background-color: #ffdde8;
+    }
+    &.secondary {
+      background-color: #d6e8f3;
+    }
+    &.ternary {
+      background-color: #f7bca0;
+    }
   }
   img {
     width: 300px;
