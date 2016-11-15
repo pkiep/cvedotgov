@@ -2,7 +2,7 @@
 title: CVE Task Force
 description: Learn. Empower. Engage.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://cve.gov" # the base hostname & protocol for your site
+url: "https://dhs.gov/cve" # the base hostname & protocol for your site
 logo: /assets/img/cvetf-logo.png
 feature_image: /assets/img/feature-background-2.jpg
 
