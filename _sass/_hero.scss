@@ -2,17 +2,18 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  min-height: 32em;
+  min-height: 25em;
   position: relative;
 }
 .hero-content {
-  background-color: transparentize($text-color, .6);
+  /* background-color: transparentize($text-color, .6); */
   bottom: 20px;
   left: 50%;
   margin-left: -30%;
   padding-top: 20px;
   position: absolute;
   text-align: center;
+  top: 350px;
   width: 60%;
 }
 .hero-content h1 {
@@ -28,4 +29,5 @@
 .hero-content .usa-button {
   font-size: 22px;
   line-height: 30px;
+  padding: 15px 30px;
 }

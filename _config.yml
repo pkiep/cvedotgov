@@ -14,8 +14,9 @@ colors:
     navitem:
       border: '#4e7190' 
   button:
-    background: '#0071bc'
+    background: '#1dafd5'
     hover: '#3e94cf'
+    secondary: '#0071bc'
     text: '#fff'
   headers: '#205493'
   text: '#212121'
