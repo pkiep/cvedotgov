@@ -1,6 +1,4 @@
 {% for project in site.data.projects %}
-  -- project.featured = {{ project.featured }}
-
   {% unless project.featured %}
     {% assign third = forloop.index | modulo: 3 %}
     {% if third == 1 %}
