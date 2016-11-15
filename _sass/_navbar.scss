@@ -42,9 +42,14 @@
 li.usa-menu-item {
   font-size: 18px;
   display: inline;
+  &:first-child a {
+    border-left: none;
+  } 
 }
 .usa-menu-item a {
   padding: 1em;
+  color: $nav-text-color;
+  border-left: 1px solid $nav-item-border-color;
 }
 .usa-menu-item:hover a {
   background-color: $button-color;
