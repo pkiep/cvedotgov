@@ -15,11 +15,11 @@
 }
 #logo {
   float: left;
-  max-width: 32rem;
-  height: 80px;
+  max-width: 15rem;
+  height: 70px;
 }
 #logo img {
-  margin-top: 0.75rem;
+  margin-top: 0;
 }
 #logo a {
   border: none;
@@ -34,10 +34,10 @@
 }
 .usa-nav-list {
   float: right;
-  margin-top: -1em;
+  margin-top: 0;
   position: absolute;
   right: 3rem;
-  top: 50%;
+  top: 33%;
 }
 li.usa-menu-item {
   font-size: 18px;
@@ -47,7 +47,7 @@ li.usa-menu-item {
   } 
 }
 .usa-menu-item a {
-  padding: 1em;
+  padding: 0.3em 0.85em;
   color: $nav-text-color;
   border-left: 1px solid $nav-item-border-color;
 }

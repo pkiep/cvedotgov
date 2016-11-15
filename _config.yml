@@ -12,7 +12,7 @@ colors:
     background: '#235581'
     text: '#fff'
     navitem:
-      border: '#eaeaea' 
+      border: '#4e7190' 
   button:
     background: '#0071bc'
     hover: '#3e94cf'
