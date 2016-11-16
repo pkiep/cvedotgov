@@ -10,7 +10,7 @@ assigned:
       ]
     }
   - {
-      text: CVE 101, href: pages/cve101.md, permalink: /cve-101/, show_in_menu: true, show_in_footer: true,
+      text: CVE 101, href: pages/cve101.md, permalink: /cve101/, show_in_menu: true, show_in_footer: true,
       children: [
         {text: Research & Analysis, href: pages/ra.md, permalink: /cve101/ra/, show_in_menu: false, show_in_footer: true},
         {text: Current Threat Picture, href: pages/ctp.md, permalink: /cve101/ctp/, show_in_menu: false, show_in_footer: true},

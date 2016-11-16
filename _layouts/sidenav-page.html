@@ -2,19 +2,26 @@
 layout: base
 ---
 
-<div class="usa-grid sidenav">
+<div class="usa-grid sidenav {{ page.sidenav-type }}">
   <aside class="usa-width-one-fourth">
     <ul class="usa-sidenav-list">
-      {% for project in site.data.projects %}
-          <li>
-            {{ project.permalink }}
-            {% if page.permalink == project.link %}
-              <a class="usa-current-page" href="{{ project.link | prepend: site.baseurl }}">{{ project.title }}</a>
-            {% else %}
-              <a href="{{ project.link | prepend: site.baseurl }}">{{ project.title }}</a>
-            {% endif %}
-          </li>
-      {% endfor %}
+
+      {% if page.permalink === '/cve101/' %}
+        <li>CVE 101!!!!</li>
+      {% elseif page.permalink === 'projects' %}
+        {% for project in site.data.projects %}
+            <li>
+              {{ project.permalink }}
+              {% if page.permalink == project.link %}
+                <a class="usa-current-page" href="{{ project.link | prepend: site.baseurl }}">{{ project.title }}</a>
+              {% else %}
+                <a href="{{ project.link | prepend: site.baseurl }}">{{ project.title }}</a>
+              {% endif %}
+            </li>
+        {% endfor %}
+      {% endif %}
+
+      
     </ul>
   </aside>
   <div class="usa-width-three-fourths usa-content" id="main" tabindex="-1">
