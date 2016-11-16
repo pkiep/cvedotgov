@@ -16,7 +16,12 @@ footer a:hover,
 footer a:visited {
   color: $footer-text-color;
 }
-
 .usa-footer-logo p {
   font-size: .7em;
+}
+.usa-footer-slim-logo-img {
+  max-width: 200px;
+}
+.usa-footer-slim-logo-heading {
+  margin: 0;
 }
