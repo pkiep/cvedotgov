@@ -1,10 +1,10 @@
 
 assigned:
-    - {text: Home, href: pages/home.md, permalink: /, show_in_menu: false, show_in_footer: false}
-    - {text: About, href: pages/about.md, permalink: /about/, show_in_menu: true, show_in_footer: false}
-    - {text: CVE 101, href: pages/cve101.md, permalink: /cve-101/, show_in_menu: true, show_in_footer: false}
-    - {text: Intervention, href: pages/intervention.md, permalink: /intervention/, show_in_menu: true, show_in_footer: false}
-    - {text: News & Media, href: pages/newsmedia.md, permalink: /news-media/, show_in_menu: true, show_in_footer: false}
+    - {text: Home, href: pages/home.md, permalink: /, show_in_menu: false, show_in_footer: true}
+    - {text: About, href: pages/about.md, permalink: /about/, show_in_menu: true, show_in_footer: true}
+    - {text: CVE 101, href: pages/cve101.md, permalink: /cve-101/, show_in_menu: true, show_in_footer: true}
+    - {text: Intervention, href: pages/intervention.md, permalink: /intervention/, show_in_menu: true, show_in_footer: true}
+    - {text: News & Media, href: pages/newsmedia.md, permalink: /news-media/, show_in_menu: true, show_in_footer: true}
     - {text: Grants, href: pages/grants.md, permalink: /grants/, show_in_menu: true, show_in_footer: true, children: [{text: 'Microloans for Farmers', href: pages/projects/microloans-for-farmers.md, show_in_menu: false, show_in_footer: false}, {text: 'Reducing Summer Melt', href: pages/projects/reducing-summer-melt.md, show_in_menu: false, show_in_footer: false}]}
     - {text: 'Project data', href: _data/projects.yml, show_in_menu: false, show_in_footer: false}
 unassigned: []
