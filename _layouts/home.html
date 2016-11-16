@@ -14,10 +14,6 @@ layout: base
 </section>
 
 <section>
-  <!--div class="usa-grid">
-    <h2>Work</h2>
-    {% include projects.html %}
-  </div-->
   <div class="usa-grid usa-separator-large">
     {% include lead-panels.html %}
   </div>
@@ -28,14 +24,30 @@ layout: base
   <div class="usa-grid">
     <div class="usa-width-one-whole usa-end-row">
       <h2>{{ page.banner-heading }}</h2>
-      {% if page.banner-text %}
-        <p>{{ page.banner-text }}</p>
-      {% endif %}
-      {% if page.banner-button-text %}
-      <div class="center-content">
-        <a href="{{ page.banner-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.banner-button-text }}</a>
+      <div class="banner-community">
+        <div class="usa-grid">
+          <div class="usa-width-one-third">
+            <img src="{{ page.banner1-image-source }}" alt="{{ page.banner1-image-alt-text }}"/>
+            <h3>{{ page.banner1-title }}</h3>
+            <div>
+              {{ page.banner1-text }}
+            </div>
+            {% if page.banner1-button-text %}
+              <a href="{{ page.banner1-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.banner1-button-text }}</a>
+            {% endif %}
+          </div>
+          <div class="usa-width-two-third">
+            <img src="{{ page.banner2-image-source }}" alt="{{ page.banner2-image-alt-text }}"/>
+            <h3>{{ page.banner2-title }}</h3>
+            <div>
+              {{ page.banner2-text }}
+            </div>
+            {% if page.banner2-button-text %}
+              <a href="{{ page.banner2-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.banner2-button-text }}</a>
+            {% endif %}
+          </div>
+        </div>
       </div>
-      {% endif %}
     </div>
   </div>
 </section>
