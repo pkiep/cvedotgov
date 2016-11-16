@@ -12,3 +12,15 @@
     text-shadow: 1px 1px 4px #000000;
   }
 }
+.clip {
+  a {
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+  }
+  span {
+    background-color: #000;
+    opacity: .5;
+    color: #fff;
+  }
+}
