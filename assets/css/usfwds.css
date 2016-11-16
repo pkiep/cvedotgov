@@ -376,8 +376,8 @@ body {
 .lt-ie9 * {
   filter: none !important; }
 
-[aria-hidden=true] {
-  display: none !important; }
+/*[aria-hidden=true] {
+  display: none !important; }*/
 
 .usa-grid,
 .usa-grid-full {

@@ -9,7 +9,7 @@
   .parent {
     float: left;
     min-width: 170px;
-    > a {
+    > a, > span {
       border: none;
       color: $footer-text-parent-color;
       font-weight: bold;
@@ -19,6 +19,7 @@
     .children {
       font-weight: normal;
       color: $footer-text-color;
+      font-size: 85%;
     }
   }
 }
