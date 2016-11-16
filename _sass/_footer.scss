@@ -1,8 +1,18 @@
+.usa-footer-nav {
+  width: 100%;
+}
 .usa-footer-primary-section {
-  background-color: #323A45;
+  background-color: $footer-background-color;
   .parent {
     float: left;
-    min-width: 100px;
+    min-width: 170px;
+    a {
+      border: none;
+      color: $footer-text-parent-color;
+      font-weight: bold;
+      font-size: 90%;
+      text-transform: uppercase;
+    }
   }
   .children {
     font-weight: normal;
