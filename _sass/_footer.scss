@@ -55,3 +55,25 @@ footer a:visited {
 .usa-footer-slim-logo-heading {
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .usa-footer-primary-section {
+    .parent {
+      width: 100%;
+    }
+  }
+}
+    
+@media (max-width: 768px) {
+  .usa-footer-primary-section {
+    .parent {
+      border-top: 1px solid #ccc;
+      font-size: 1.3em;
+      padding: 20px;
+      > a {
+        padding: 10px;
+      }
+    }
+  }
+}
+    

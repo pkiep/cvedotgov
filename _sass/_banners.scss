@@ -7,11 +7,13 @@
 .banner.tagline p {
   color: $banner-text-color;
   margin-bottom: 75px;
+  img {
+    width: 100%;
+  }
 }
 .banner.tagline h2 {
   color: $banner-text-color;
   margin-top: -10px;
-  font-size: 1.2em;
 }
 .banner.tagline h3 {
   margin-top: 0;

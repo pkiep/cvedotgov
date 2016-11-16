@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   color: $banner-text-color;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 ul, li {
   margin-bottom: 0;
@@ -81,5 +81,11 @@ div.skip-nav a:focus {
     left: 50%;
     max-width: 62.5rem;
     margin-left: -31.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    text-align: center;
   }
 }
