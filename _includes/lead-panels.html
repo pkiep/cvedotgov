@@ -7,7 +7,7 @@
     <div class="usa-width-one-third project lead-panel">
     {% endif %}
       <a href="{{ lead.link | prepend: site.baseurl }}">
-      	<h3>{{ lead.title }}</h3>
+      	<h3 class="{{lead.title-color}}">{{ lead.title }}</h3>
         <img src="{{ lead.image | prepend: site.baseurl }}"/>
       </a>
     </div>
