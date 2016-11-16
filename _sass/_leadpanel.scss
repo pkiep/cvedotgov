@@ -7,13 +7,13 @@
     margin: 0;
     padding: 10px;
     &.primary {
-      background-color: #d6e8f3;
+      background-color: $events-primary-background-color;
     }
     &.secondary {
-      background-color: #f7bca0;
+      background-color: $events-secondary-background-color;
     }
     &.ternary {
-      background-color: #ffdde8;
+      background-color: $events-ternary-background-color;
     }
   }
 }

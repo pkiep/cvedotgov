@@ -32,6 +32,13 @@ colors:
     background: '#323A45'
     textparent: '#86b1de'
     text: '#ccc'
+  leadpanel:
+    primary:
+      background: '#d6e8f3'
+    seconday:
+      background: '#f7bca0'
+    ternary:
+      background: '#ffdde8'
 
 analytics:
   google:
