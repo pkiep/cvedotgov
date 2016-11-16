@@ -1,0 +1,10 @@
+<div class="usa-grid cp">
+  <h2>Community Partnership</h2>
+  {% for city in site.data.cp %}
+  <div class="usa-width-one-third cp-item">
+    <a href="{{ city.link }}" style="background-image: url({{ city.image }});">
+      <span>{{ city.title }}</span>
+    </a>
+  </div>
+  {% endfor %}
+</div>

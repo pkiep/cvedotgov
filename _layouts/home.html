@@ -29,7 +29,7 @@ layout: base
           <div class="usa-width-one-half">
             <div class="usa-grid no-padding">
               <div class="usa-width-one-third">
-                <img src="{{ page.banner1-image-source }}" alt="{{ page.banner1-image-alt-text }}"/>
+                <img src="{{ page.banner1-image }}" alt="{{ page.banner1-image-alt-text }}"/>
               </div>
               <div class="usa-width-two-thirds small-padding-sides">
                 <h3>{{ page.banner1-title }}</h3>
@@ -45,7 +45,7 @@ layout: base
           <div class="usa-width-one-half">
             <div class="usa-grid no-padding">
               <div class="usa-width-one-third">
-                <img src="{{ page.banner2-image-source }}" alt="{{ page.banner2-image-alt-text }}"/>
+                <img src="{{ page.banner2-image }}" alt="{{ page.banner2-image-alt-text }}"/>
               </div>
               <div class="usa-width-two-thirds small-padding-sides">
                 <h3>{{ page.banner2-title }}</h3>
@@ -76,6 +76,10 @@ layout: base
       </div>  
     </div>
   </div>
+</section>
+
+<section class="banner">
+  {% include cp.html %}
 </section>
 
 {% include contact.html %}
