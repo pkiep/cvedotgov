@@ -30,10 +30,6 @@ $banner-text-color:         {{ site.colors.banner.text }};
 $banner-button-color:       {{ site.colors.banner.button.background }};
 $banner-button-text-color:  {{ site.colors.banner.button.text }};
 
-$events-primary-background-color:   {{ site.colors.leadpanel.primary.background }};
-$events-secondary-background-color:   {{ site.colors.leadpanel.secondary.background }};
-$events-ternary-background-color:   {{ site.colors.leadpanel.ternary.background }};
-
 $footer-background-color:   {{ site.colors.footer.background }};
 $footer-text-parent-color:  {{ site.colors.footer.textparent }};
 $footer-text-color:         {{ site.colors.footer.text }};
