@@ -3,15 +3,45 @@ assigned:
   - {text: Home, href: pages/home.md, permalink: /, show_in_menu: false, show_in_footer: true}
   - {
       text: About, href: pages/about.md, permalink: /about/, show_in_menu: true, show_in_footer: true,
-      submenu: [
-        {text: Mission, href: pages/mission.md, permalink: /mission/, show_in_menu: false, show_in_footer: true},
-        {text: Vision, href: pages/vision.md, permalink: /vision/, show_in_menu: false, show_in_footer: true},
-        {text: Leadership, href: pages/leadership.md, permalink: /leadership/, show_in_menu: false, show_in_footer: true},
+      children: [
+        {text: Mission, href: pages/mission.md, permalink: /about/mission/, show_in_menu: false, show_in_footer: true},
+        {text: Vision, href: pages/vision.md, permalink: /about/vision/, show_in_menu: false, show_in_footer: true},
+        {text: Leadership, href: pages/leadership.md, permalink: /about/leadership/, show_in_menu: false, show_in_footer: true},
       ]
     }
-  - {text: CVE 101, href: pages/cve101.md, permalink: /cve-101/, show_in_menu: true, show_in_footer: true}
-  - {text: Intervention, href: pages/intervention.md, permalink: /intervention/, show_in_menu: true, show_in_footer: true}
-  - {text: News & Media, href: pages/newsmedia.md, permalink: /news-media/, show_in_menu: true, show_in_footer: true}
-  - {text: Grants, href: pages/grants.md, permalink: /grants/, show_in_menu: true, show_in_footer: true, children: [{text: 'Microloans for Farmers', href: pages/projects/microloans-for-farmers.md, show_in_menu: false, show_in_footer: false}, {text: 'Reducing Summer Melt', href: pages/projects/reducing-summer-melt.md, show_in_menu: false, show_in_footer: false}]}
-  - {text: 'Project data', href: _data/projects.yml, show_in_menu: false, show_in_footer: false}
+  - {
+      text: CVE 101, href: pages/cve101.md, permalink: /cve-101/, show_in_menu: true, show_in_footer: true,
+      children: [
+        {text: Research & Analysis, href: pages/ra.md, permalink: /cve101/ra/, show_in_menu: false, show_in_footer: true},
+        {text: Current Threat Picture, href: pages/ctp.md, permalink: /cve101/ctp/, show_in_menu: false, show_in_footer: true},
+        {text: Know Your Rights, href: pages/know.md, permalink: /cve101/know/, show_in_menu: false, show_in_footer: true},
+      ]
+    }
+  - {
+      text: Intervention, href: pages/intervention.md, permalink: /intervention/, show_in_menu: true, show_in_footer: true,
+      children: [
+        {text: Case Studies, href: pages/ra.md, permalink: /cve101/ra/, show_in_menu: false, show_in_footer: true},
+        {text: Models & Practice, href: pages/ctp.md, permalink: /cve101/ctp/, show_in_menu: false, show_in_footer: true},
+        {text: Find an Expert, href: pages/know.md, permalink: /cve101/know/, show_in_menu: false, show_in_footer: true},
+      ]
+    }
+  - {
+      text: News & Media, href: pages/newsmedia.md, permalink: /news-media/, show_in_menu: true, show_in_footer: true,
+      children: [
+        {text: Blog, href: pages/ra.md, permalink: /cve101/ra/, show_in_menu: false, show_in_footer: true},
+        {text: Press Releases, href: pages/ctp.md, permalink: /cve101/ctp/, show_in_menu: false, show_in_footer: true},
+        {text: News Articles, href: pages/know.md, permalink: /cve101/know/, show_in_menu: false, show_in_footer: true},
+      ]
+    }
+  - {
+      text: Grants, href: pages/grants.md, permalink: /grants/, show_in_menu: true, show_in_footer: true, 
+      children: [
+        {text: Grant Program, href: pages/ra.md, permalink: /cve101/ra/, show_in_menu: false, show_in_footer: true},
+        {text: Grant FAQs, href: pages/ctp.md, permalink: /cve101/ctp/, show_in_menu: false, show_in_footer: true},
+        {text: Grant Recipients, href: pages/know.md, permalink: /cve101/know/, show_in_menu: false, show_in_footer: true},
+      ]
+    }
+  - {
+      text: 'Project data', href: _data/projects.yml, show_in_menu: false, show_in_footer: false
+    }
 unassigned: []

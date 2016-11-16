@@ -6,7 +6,7 @@
     <div class="usa-grid-full">
       <nav class="usa-footer-nav usa-width-two-thirds">
         <ul class="usa-unstyled-list">
-          <li class="usa-width-one-fourth usa-footer-primary-content">
+          <!--li class="usa-width-one-fourth usa-footer-primary-content">
             <a class="usa-footer-primary-link" href="javascript:void(0);">Primary link</a>
           </li>
           <li class="usa-width-one-fourth usa-footer-primary-content">
@@ -17,7 +17,14 @@
           </li>
           <li class="usa-width-one-fourth usa-footer-primary-content">
             <a class="usa-footer-primary-link" href="javascript:void(0);">Primary link</a>
-          </li>
+          </li-->
+          {% for nav in navs %}
+            {% if nav.show_in_footer %}
+            <li class="usa-menu-item">
+              <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
+            </li>
+            {% endif %}
+          {% endfor %}
         </ul>
       </nav>
       <div class="usa-width-one-third">
