@@ -35,7 +35,7 @@ colors:
   leadpanel:
     primary:
       background: '#d6e8f3'
-    seconday:
+    secondary:
       background: '#f7bca0'
     ternary:
       background: '#ffdde8'

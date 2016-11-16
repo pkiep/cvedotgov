@@ -30,9 +30,9 @@ $banner-text-color:         {{ site.colors.banner.text }};
 $banner-button-color:       {{ site.colors.banner.button.background }};
 $banner-button-text-color:  {{ site.colors.banner.button.text }};
 
-$events-primary-background-color:   #d6e8f3;
-$events-secondary-background-color:   #f7bca0;
-$events-ternary-background-color:   #ffdde8;
+$events-primary-background-color:   {{ site.colors.leadpanel.primary.background }};
+$events-secondary-background-color:   {{ site.colors.leadpanel.secondary.background }};
+$events-ternary-background-color:   {{ site.colors.leadpanel.ternary.background }};
 
 $footer-background-color:   {{ site.colors.footer.background }};
 $footer-text-parent-color:  {{ site.colors.footer.textparent }};
