@@ -4,23 +4,11 @@
   </div>
   <div class="usa-footer-primary-section">
     <div class="usa-grid-full">
-      <nav class="usa-footer-nav usa-width-two-thirds">
+      <nav class="usa-footer-nav">
         <ul class="usa-unstyled-list">
-          <!--li class="usa-width-one-fourth usa-footer-primary-content">
-            <a class="usa-footer-primary-link" href="javascript:void(0);">Primary link</a>
-          </li>
-          <li class="usa-width-one-fourth usa-footer-primary-content">
-            <a class="usa-footer-primary-link" href="javascript:void(0);">Primary link</a>
-          </li>
-          <li class="usa-width-one-fourth usa-footer-primary-content">
-            <a class="usa-footer-primary-link" href="javascript:void(0);">Primary link</a>
-          </li>
-          <li class="usa-width-one-fourth usa-footer-primary-content">
-            <a class="usa-footer-primary-link" href="javascript:void(0);">Primary link</a>
-          </li-->
           {% for nav in navs %}
             {% if nav.show_in_footer %}
-            <li class="usa-footer-primary-content">
+            <li class="usa-footer-primary-content parent">
               <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
               <ul class="usa-unstyled-list children">
                 {% for child in nav.children %}
@@ -34,24 +22,22 @@
             </li>
             {% endif %}
           {% endfor %}
+          <li class="usa-footer-primary-content parent social">
+            <span>Stay Connected</span>
+            <a href="#" title="Connect with us on Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="#" title="Follow us on Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="#" title="Subscribe to our Youtube Channel"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          </li>
         </ul>
       </nav>
-      <div class="usa-width-one-third">
-        <div class="usa-footer-primary-content usa-footer-contact_info">
-          <p>(800) CALL-GOVT</p>
-        </div>
-        <div class="usa-footer-primary-content usa-footer-contact_info">
-          <a href="mailto:info@agency.gov">info@agency.gov</a>
-        </div>
-      </div>
     </div>
   </div>
 
   <div class="usa-footer-secondary_section">
     <div class="usa-grid">
       <div class="usa-footer-logo">
-        <img class="usa-footer-slim-logo-img" src="/assets/img/logo-img.png" alt="Logo image">
-        <h3 class="usa-footer-slim-logo-heading">Name of Agency</h3>
+        <img class="usa-footer-slim-logo-img" src="./assets/img/cvetf-logo-pill.png" alt="CVE Task Force Logo">
+        <h3 class="usa-footer-slim-logo-heading">Countering Violent Terrorism Task Force</h3>
       </div>
     </div>
   </div>

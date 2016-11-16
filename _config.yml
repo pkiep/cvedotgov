@@ -29,8 +29,9 @@ colors:
       background: '#dce4ef'
       text: '#112e51'
   footer:
-    background: '#323a45'
-    text: '#fff'
+    background: '#323A45'
+    textparent: '#86b1de'
+    text: '#ccc'
 
 analytics:
   google:
