@@ -6,9 +6,9 @@ layout: base
   <aside class="usa-width-one-fourth">
     <ul class="usa-sidenav-list">
 
-      {% if page.permalink === '/cve101/' %}
+      {% if page.permalink == '/cve101/' %}
         <li>CVE 101!!!!</li>
-      {% elsif page.permalink === 'projects' %}
+      {% elsif page.permalink == 'projects' %}
         {% for project in site.data.projects %}
             <li>
               {{ project.permalink }}
