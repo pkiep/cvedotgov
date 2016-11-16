@@ -1,5 +1,5 @@
 {% for lead in site.data.lead-panels %}
-  <div class="usa-width-one-third usa-end-row lead-panel">
+  <div class="usa-width-one-third lead-panel">
     <a href="{{ lead.link | prepend: site.baseurl }}">
     	<h3 class="{{lead.title-color}}">{{ lead.title }}</h3>
       <img src="{{ lead.image | prepend: site.baseurl }}"/>
