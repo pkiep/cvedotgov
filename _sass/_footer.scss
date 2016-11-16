@@ -1,5 +1,13 @@
 .usa-footer-primary-section {
   background-color: #323A45;
+  .parent {
+    float: left;
+    min-width: 100px;
+  }
+  .children {
+    font-weight: normal;
+    font-size: 90%;
+  }
 }
 .usa-footer-secondary_section {
   background-color: $footer-background-color;

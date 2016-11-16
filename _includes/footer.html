@@ -8,7 +8,7 @@
         <ul class="usa-unstyled-list">
           {% for nav in navs %}
             {% if nav.show_in_footer %}
-            <li class="usa-footer-primary-content">
+            <li class="usa-footer-primary-content parent">
               <a href="{{ nav.permalink | prepend: site.baseurl }}">{{ nav.text }}</a>
               <ul class="usa-unstyled-list children">
                 {% for child in nav.children %}
