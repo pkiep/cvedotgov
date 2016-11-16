@@ -26,25 +26,37 @@ layout: base
       <div class="banner-community">
         <div class="usa-grid">
           <h2>{{ page.banner-heading }}</h2>
-          <div class="usa-width-one-third">
-            <img src="{{ page.banner1-image-source }}" alt="{{ page.banner1-image-alt-text }}"/>
-            <h3>{{ page.banner1-title }}</h3>
-            <div>
-              {{ page.banner1-text }}
+          <div class="usa-width-one-half">
+            <div class="usa-grid no-padding">
+              <div class="usa-width-one-third">
+                <img src="{{ page.banner1-image-source }}" alt="{{ page.banner1-image-alt-text }}"/>
+              </div>
+              <div class="usa-width-two-thirds">
+                <h3>{{ page.banner1-title }}</h3>
+                <div>
+                  {{ page.banner1-text }}
+                </div>
+                {% if page.banner1-button-text %}
+                  <a href="{{ page.banner1-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.banner1-button-text }}</a>
+                {% endif %}
+              </div>
             </div>
-            {% if page.banner1-button-text %}
-              <a href="{{ page.banner1-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.banner1-button-text }}</a>
-            {% endif %}
           </div>
-          <div class="usa-width-two-thirds">
-            <img src="{{ page.banner2-image-source }}" alt="{{ page.banner2-image-alt-text }}"/>
-            <h3>{{ page.banner2-title }}</h3>
-            <div>
-              {{ page.banner2-text }}
+          <div class="usa-width-one-half">
+            <div class="usa-grid no-padding">
+              <div class="usa-width-one-third">
+                <img src="{{ page.banner2-image-source }}" alt="{{ page.banner2-image-alt-text }}"/>
+                <h3>{{ page.banner2-title }}</h3>
+              </div>
+              <div class="usa-width-two-thirds">
+                <div>
+                  {{ page.banner2-text }}
+                </div>
+                {% if page.banner2-button-text %}
+                  <a href="{{ page.banner2-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.banner2-button-text }}</a>
+                {% endif %}
+              </div>
             </div>
-            {% if page.banner2-button-text %}
-              <a href="{{ page.banner2-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.banner2-button-text }}</a>
-            {% endif %}
           </div>
         </div>
       </div>
