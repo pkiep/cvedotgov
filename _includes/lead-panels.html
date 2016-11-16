@@ -1,15 +1,8 @@
 {% for lead in site.data.lead-panels %}
-  {% unless lead.featured %}
-    {% assign third = forloop.index | modulo: 3 %}
-    {% if third == 1 %}
-    <div class="usa-width-one-third usa-end-row project lead-panel">
-    {% else %}
-    <div class="usa-width-one-third project lead-panel">
-    {% endif %}
-      <a href="{{ lead.link | prepend: site.baseurl }}">
-      	<h3 class="{{lead.title-color}}">{{ lead.title }}</h3>
-        <img src="{{ lead.image | prepend: site.baseurl }}"/>
-      </a>
-    </div>
-  {% endunless %}
+  <div class="usa-width-one-third usa-end-row lead-panel">
+    <a href="{{ lead.link | prepend: site.baseurl }}">
+    	<h3 class="{{lead.title-color}}">{{ lead.title }}</h3>
+      <img src="{{ lead.image | prepend: site.baseurl }}"/>
+    </a>
+  </div>
 {% endfor %}
