@@ -1,5 +1,8 @@
 .usa-footer-nav {
   width: 100%;
+  a {
+    border: none;
+  }
 }
 .usa-footer-primary-section {
   background-color: $footer-background-color;
@@ -13,10 +16,10 @@
       font-size: 90%;
       text-transform: uppercase;
     }
-  }
-  .children {
-    font-weight: normal;
-    font-size: 90%;
+    .children {
+      font-weight: normal;
+      color: $footer-text-color;
+    }
   }
 }
 .usa-footer-secondary_section {
