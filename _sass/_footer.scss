@@ -12,6 +12,7 @@
     > a, > span {
       border: none;
       color: $footer-text-parent-color;
+      display: block;
       font-weight: bold;
       font-size: 90%;
       text-transform: uppercase;
@@ -24,8 +25,8 @@
     &.social {
       a {
         float: left;
-        font-size: 1.3em;
-        margin-right: 5px;
+        font-size: 1.7em;
+        margin-right: 15px;
       }
     }
   }
