@@ -9,7 +9,7 @@
   .parent {
     float: left;
     min-width: 170px;
-    a {
+    > a {
       border: none;
       color: $footer-text-parent-color;
       font-weight: bold;
