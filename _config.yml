@@ -23,7 +23,7 @@ colors:
   projects:
     accent: '#02bfe7'
   banner:
-    background: '#112e51'
+    background: '#efefef'
     text: '#fff'
     button:
       background: '#dce4ef'
