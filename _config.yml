@@ -18,7 +18,7 @@ colors:
     hover: '#3e94cf'
     secondary: '#0071bc'
     text: '#fff'
-  headers: '#205493'
+  headers: '#1dafd5'
   text: '#212121'
   projects:
     accent: '#02bfe7'
