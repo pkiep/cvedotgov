@@ -4,11 +4,11 @@
     border: none;
   }
 }
-.usa-footer-primary-section {
+.usa-footer-primary-section, .usa-footer-return-to-top {
   background-color: $footer-background-color;
   .parent {
     float: left;
-    min-width: 170px;
+    min-width: 160px;
     > a, > span {
       border: none;
       color: $footer-text-parent-color;
@@ -20,6 +20,13 @@
       font-weight: normal;
       color: $footer-text-color;
       font-size: 85%;
+    }
+    .social {
+      a {
+        float: left;
+        font-size: 1.3em;
+        margin-right: 5px;
+      }
     }
   }
 }
